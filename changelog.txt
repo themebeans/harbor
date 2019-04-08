@@ -1,0 +1,217 @@
+** Harbor Changelog **
+
+06 April 2019, Version 2.0.0
+	New:
+		* Add the latest ThemeBeans framework upgrade with modern coding standards and build scripts in place
+		* Add support for the new `wp_body_open` hook in WordPress 5.2+
+		* Add concated styles and scripts for faster performance 🚀
+		* Add WordPress 4.7- backwards compatibility notice
+		* Add a new license Customizer control for managing your theme license
+		* Add support for core custom logo functionality and auto-migration
+		* Add SCSS support with auto browser auto-prefixing
+		* Add minified Customizer JS and editor stylesheet assets with auto-prefixing
+		* Add new custom logo width options for desktop and mobile viewports
+		* Add new Underscore JS Customizer controls for improved Customizer speed
+		* Move /js/ to /assets/js/{source}
+		* Improve debug mode that works with minified asset delivery throughout the entire theme
+		* Improve Customizer settings with proper organization
+		* Improve Customizer UI
+		* Remove legacy framework code
+		* Remove the dashboard license widget (because we have the new Customizer License Key control)
+		* Remove the Customizer Login Logo options, in lieu of (Login Designer)[https://wordpress.org/plugins/login-designer]
+		* Remove Google Analytics settings, in lieu of Yoast SEO (or another plugin of your choice)[https://wordpress.org/plugins/wordpress-seo]
+
+	Fixes & Updates:
+		* Improved theme updater class
+		* Improved Customizer sanitization functions
+		* Improved theme styles to make them more modern
+		* Improved PHPCS code readability
+		* Updated comments
+		* Updated child theme
+		* Updated languages
+
+
+27 September 2017 - Version 1.5.3
+	Fixes & Updates:
+		* Added a conditional check to remove shortcodes from the post loops
+
+
+24 August 2017 - Version 1.5.2
+	Fixes & Updates:
+		* Added conditional checks for Envato Hosted accounts
+
+
+25 June 2017 - Version 1.5.1
+	Fixes & Updates:
+		* Fixed the Twitter social element, so that the URL is shared as well
+
+
+23 June 2017 - Version 1.5.0
+	New:
+		* Added a new social sharing module
+		* Removed the video widget, as there's one included in core now
+    Fixes & Updates:
+        * Removed Sharre.js
+        * Updated languages
+
+
+07 June 2017 - Version 1.4.9
+    Fixes & Updates:
+        * Fixed URL parameter added to the email theme option
+        * Improved mobile menu rendering on small screens
+
+
+1 June 2017 - Version 1.4.8
+    Fixes & Updates:
+        * Shortcodes in content block fix
+
+
+22 May 2017 - Version 1.4.7
+    Fixes & Updates:
+        * Left aligned menu fix
+
+
+17 May 2017 - Version 1.4.6
+    Fixes & Updates:
+        * Improved the responsive nature of the header, when there are more than five menu items
+
+
+11 May 2017 - Version 1.4.5
+    New:
+        * Removed jQuery Validation Plugin CDN source and added the plugin locally
+
+
+10 May 2017 - Version 1.4.4
+    Fixes & Updates:
+        * Added full PHP 7 Compatibility 🚀
+
+
+23 December 2016 - Version 1.4.3
+    Fixes & Updates:
+        * Mobile video background image fix
+
+
+13 December 2016 - Version 1.4.2
+    Fixes & Updates:
+        * WordPress 4.7 touchups
+        * Custom CSS -> WP Core CSS migration
+        * Updated languages
+
+
+12 October 2016 - Version 1.4.1
+    New:
+        * Added selective widget refreshing
+        * Added WordPress title-tag support
+        * Improved single portfolio, masonry layout video support
+        * Removed SEO settings, in lieu of Yoast SEO [https://wordpress.org/plugins/wordpress-seo]
+    Fixed:
+        * Conducted WordPress 4.6+ updates
+        * Conducted general performance & security improvements
+        * Updated pingback header function
+        * Updated languages
+
+
+25 January 2016 - Version 1.4.0
+     * EDD_Theme_Updater Update
+        - You will need to re-activate your theme license.
+     * Updated languages
+
+
+18 December 2015 - Version 1.3.2
+	* WP 4.4 comments fix
+		- functions.php
+	* Contact template now uses wp_mail mailing function
+		- template-contact.php
+	* Updated languages
+
+
+31 August 2015 - Version 1.3.1
+	* 100% GPL license
+		- style.css (top comments)
+		- Read more: http://themebeans.com/news/all-themes-now-100-gpl/
+
+
+26 August 2015 - Version 1.3.0
+	* Theme Customizer update
+		- Moved Branding section to WP default Site Identity section
+		- Removed favicon & apple touch uploader (WP 4.3 is default)
+		- inc/customizer folder
+	* 4.3 widget __construct update
+		- inc/widgets folder
+	* Framework updated to v2.6.2.1
+		- WP 4.3 Theme Customizer update
+		- Custom CSS Editor UI/X update
+		- framework folder
+	* Updated languages
+
+
+14 July 2015 - Version 1.2.1
+	* Added Customizer Export/Import support (NEW)
+		- More info: http://themebeans.com/?p=71018
+		- Download & Install: https://wordpress.org/plugins/customizer-export-import
+		- [theme]-package/customizer/[theme]-export.data (NEW)
+	* Improved optimization of image assets
+	* Added minified css/js files
+		- style.min.css (NEW)
+		- mobile.min.css (NEW)
+		- custom.min.js (NEW)
+		- custom-libraries.min.js (NEW)
+	* Framework updated to v2.6.1
+	* Updated languages
+
+
+2 July 2015 - Version 1.2.0
+	* Added more footer icons
+		- Instagram, Email, Behance, Linkedin
+		- updated sprite assets
+		- customizer.php
+		- footer.php
+
+
+21 June 2015 - Version 1.1.4
+	* Customizer live JS update
+
+
+20 June 2015 - Version 1.1.3
+	* Customizer sanitation update
+
+
+19 June 2015 - Version 1.1.2
+	* Updated password protected styles
+	* Updated closed comments styles
+	* Fixed lightbox mobile margin
+	* Update portfolio fullpage mobile styles
+	* Updated languages
+
+
+18 June 2015 - Version 1.1.1
+	* Portfolio fullpage mobile update
+	* Gallery blog post mobile update
+
+
+18 June 2015 - Version 1.1.0
+	* Added Portfolio widget (NEW)
+	* Added Portfolio Menu widget (NEW)
+	* Updated languages
+
+
+17 June 2015 - Version 1.0.1
+	* Added new wide blogroll template
+		-/template-parts/blogroll-masonry.php
+		-/template-parts/blogroll-wide.php
+		-loop-post-wide.php
+	* Theme Customizer "Blogroll Wide" option added
+	* Added new Squared Portfolio Grid template
+		- template-portfolio-squared-grid.php (NEW)
+		- loop-portfolio-squared.php (NEW)
+	* Added "Back to Top" feature
+	* Theme Customizer "Back to Top" option added
+	* Added password protected styles
+	* Updated screenshot.png
+	* Updated sprite.png (@2x & @3x)
+	* Updated documentation
+	* Updated languages
+
+
+16 June 2015 - Version 1.0
+	* Initial release

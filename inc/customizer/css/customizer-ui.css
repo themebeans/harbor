@@ -1,0 +1,50 @@
+/*===================================================================*/
+/* THEME SPECIFIC STYLES
+/*===================================================================*/
+#customize-control-google_maps_code,
+#customize-control-loop_categories {
+	margin-bottom: 20px;
+}
+
+#customize-control-testimonials_title {
+	margin-top: 5px;
+}
+
+#customize-control-projects_btn_text,
+#customize-control-menu_layout,
+#customize-control-blog_layout {
+	margin-top: 15px!important;
+}
+
+#customize-control-header_position {
+	margin-bottom: 15px;
+}
+
+#customize-control-menu_visible_nav {
+	margin-bottom: 7px;
+}
+
+#customize-control-blogdescription {
+	padding-bottom: 15px;
+}
+
+#customize-control-blog_layout .image-radio + label, 
+#customize-control-menu_layout .image-radio + label,
+#customize-control-home_layout .image-radio + label,
+#customize-control-header_position .image-radio + label,
+#customize-control-single_portfolio_layout .image-radio + label {
+	width: 23.5%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	max-width: 60px;
+	cursor: pointer;
+}
+
+#customize-control-single_portfolio_layout .image-radio + label[for=_customize-image-radios-single_portfolio_layout_single_portfolio_stacked_no_hero],
+#customize-control-single_portfolio_layout .image-radio + label[for=_customize-image-radios-single_portfolio_layout_single_portfolio_carousel],
+#customize-control-header_position .image-radio + label[for=_customize-image-radios-header_position_header_right_aligned],
+#customize-control-menu_layout .image-radio + label[for=_customize-image-radios-menu_layout_menu_fullscreen],
+#customize-control-home_layout .image-radio + label[for=_customize-image-radios-home_layout_home_fullscreen],
+#customize-control-home_layout .image-radio + label[for=_customize-image-radios-home_layout_home_masonry_fullscreen] {
+	margin-right: 0;
+}
